@@ -1,0 +1,6 @@
+{
+  "name": "Futurook",
+  "description": "Plataforma web de orientación vocacional de Futurook, donde estudiantes de bachillerato de El Salvador exploran programas universitarios en UEES, UJMD y UCA guiados por la mascota Bit.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

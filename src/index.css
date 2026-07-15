@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  
+  --color-futurook-purple: #A881C2;
+  --color-futurook-purple-dark: #8c60aa;
+  --color-futurook-purple-light: #f5f1f9;
+  --color-futurook-purple-medium: #cbb4db;
+  --color-futurook-gray-bg: #f3f4f6;
+  --color-futurook-dark: #2d2a32;
+}
+
+body {
+  background-color: var(--color-futurook-purple-light);
+  font-family: var(--font-sans);
+  color: var(--color-futurook-dark);
+}
+
+/* Custom scrollbar to keep layout premium */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-futurook-purple-medium);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-futurook-purple);
+}
+
